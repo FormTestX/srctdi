@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>SRC TDI Webpage</title>
+</head>
+<body>
+
+	<header>
+		<div class="topnav" id="myTopnav">
+  			<a href="#home" class="active"><img src="srclogo.png" class="logo"></a>
+  			<a href="#news">Latest Info</a>
+  			<a href="#contact">Contact Us</a>
+  			<a href="#about">Our Members</a>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     		<i class="fa fa-bars"></i>
+    		</a>
+    		<button onclick="xfunc()" class="mode">Toggle Reading Mode</button>
+		</div>
+	</header>
+
+	<div id="intro">
+		<h2>SRC TDI <img src="srclogo.png"></h2>
+
+		<h3 style="margin: 0; font-size: 30px;">Not Just What You Think.</h3>
+	</div>
+
+	<div class="pad">
+		<h2>Beyond What You Think</h2>
+		<div class="txtl">
+		<h3>Open Minded</h3>
+		<p>As a leader of a big community, our members need to practice open minded as all human are not the exact same. That would not be the reason for us not to move as ONE.</p>
+		</div>
+
+		<div class="txtr">
+		<h3>Basic Work Etiquet</h3>
+		<p>As a leader of the sosiaty, we need to practice formal work etiquet, basicly, basic work etiquet so that we are always be arranged and formal. This is very important to keep our organization stable and working properly.</p>
+		</div>
+
+		<div class="txtl">
+		<h3>Basic Work Etiquet</h3>
+		<p>As a leader of the sosiaty, we need to practice formal work etiquet, basicly, basic work etiquet so that we are always be arranged and formal. This is very important to keep our organization stable and working properly.</p>
+		</div>
+	</div>
+
+	<div class="wsup">
+		<h2>See what's up with 21/22</h2>
+		<div id="wpad">
+			<h3>New Exco Election</h3>
+			<p>We have elected 4 new members in our team so we could move smoothly and efectively</p>
+		</div>
+	</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function xfunc() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
